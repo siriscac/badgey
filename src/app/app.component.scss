@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.card {
+    padding: 16px;
+    border-radius: 16px;
+    background-color: white;
+    width: 40%;
+    resize: both;
+    border-style: solid;
+    border-width: thin;
+    border-color: #e6e6e6;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.logo {
+    font-family: 'McLaren', cursive;
+    font-size: 36px;
+    padding: 16px;
+}
+
+.mat-toolbar.mat-primary {
+    background: #ffffff;
+    color: #ff4a00;
+}
